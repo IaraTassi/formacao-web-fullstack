@@ -57,16 +57,19 @@ A formação é dividida em **três blocos principais**: Básico, Intermediário
 
 ```plaintext
 /
-├── Exercicios-Basico/
-│   ├── HTML/
-|__ |__ CSS/
-|__ |__ Deploy/
-│   |__ JavaScript/
-├── Exercicios-Intermediario/
+├── exercicios-basico/
+│   ├── html/
+|   ├── exercicio-conceitos-html/
+│   │   ├── index.html
+│   │   └── README.md
+|__ |__ css/
+|__ |__ deploy/
+│   |__ javascript/
+├── exercicios-intermediario/
 │   ├── /
 │   ├── /
 │   └── /
-├── Exercicios-Avancado/
+├── exercicios-avancado/
 │   ├── /
 │   ├── /
 │   └── /
