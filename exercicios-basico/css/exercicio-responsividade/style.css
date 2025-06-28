@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:wght@100;300;400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #3b63b6;
+  padding: 1rem;
+}
+
+.menu ul {
+  list-style-type: none;
+}
+
+nav.menu li > a {
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+img {
+  width: 55%;
+}
+
+h2 {
+  font-size: 2.5rem;
+  padding: 1rem 0;
+}
+
+p {
+  font-size: 0.85rem;
+}
+
+section {
+  text-align: center;
+  border-bottom: 1px solid rgb(163, 159, 159);
+  padding: 2rem 1.5rem;
+}
+
+button {
+  color: #fff;
+  font-size: 0.85rem;
+  background-color: #3b63b6;
+  border: 1px solid #3b63b6;
+  border-radius: 2.8rem;
+  padding: 1rem 3.5rem;
+  margin: 1.25rem 0;
+}
+
+.quem-somos__descricao p {
+  text-align: start;
+}
+
+.btn-whatsapp {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  width: 2rem;
+  height: auto;
+}
+
+table {
+  width: 55%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+td,
+th {
+  border: 1px solid rgb(163, 159, 159);
+  text-align: center;
+  padding: 0.6rem;
+}
+
+th {
+  font-size: 0.8rem;
+  white-space: nowrap;
+  text-align: start;
+}
+
+.Copyright {
+  text-align: center;
+  color: rgb(163, 159, 159);
+  padding: 0.85rem 0;
+}
+
+@media screen and (min-width: 768px) {
+  .menu ul {
+    display: flex;
+    gap: 2rem;
+  }
+
+  table {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  h2 {
+    font-size: 2.5rem;
+    margin: 1rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+  img {
+    width: 60%;
+    height: auto;
+  }
+
+  .quem-somos__descricao p {
+    padding: 0 2.5rem;
+  }
+
+  table {
+    width: 85%;
+  }
+
+  th {
+    font-size: 0.9rem;
+  }
+
+  td,
+  th {
+    padding: 0.8rem;
+  }
+  .Copyright {
+    margin: 0.8rem 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .menu ul {
+    display: flex;
+    justify-content: start;
+    gap: 2.5rem;
+    margin: 1rem 0;
+  }
+
+  nav.menu li > a {
+    font-size: 1rem;
+  }
+
+  nav.menu li > a:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+
+  img {
+    width: 55%;
+    height: auto;
+    padding-left: 2.5rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  button {
+    font-size: 1rem;
+    padding: 1.5rem 3rem;
+  }
+
+  button:hover {
+    cursor: pointer;
+    font-weight: 600;
+  }
+
+  #growtravel,
+  #quem-somos,
+  #planos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #growtravel {
+    flex-direction: row-reverse;
+  }
+
+  .growtravel__btn {
+    text-align: start;
+  }
+
+  .quem-somos__descricao {
+    text-align: start;
+    padding: 0 2rem 0 2rem;
+  }
+
+  #planos {
+    flex-direction: column;
+  }
+
+  .btn-whatsapp {
+    width: 3.5rem;
+    height: auto;
+  }
+
+  table {
+    width: 90%;
+    margin: 1rem 0;
+  }
+
+  th {
+    font-size: 1rem;
+  }
+
+  td,
+  th {
+    padding: 1rem;
+  }
+
+  .Copyright {
+    margin: 1rem 0;
+  }
+}

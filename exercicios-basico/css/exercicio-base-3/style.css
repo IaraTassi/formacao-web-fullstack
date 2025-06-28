@@ -1,0 +1,26 @@
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.titulo-secao {
+  font-size: 24px;
+  background-color: rgb(50, 247, 247);
+}
+
+#texto-copyright {
+  font-size: 14px;
+  color: grey;
+  text-align: center;
+}
+
+section.formacao > p {
+  text-transform: uppercase;
+}
+
+section.experiencias-profissionais > p.descricao-cargo {
+  color: orangered;
+}
+
+a {
+  text-decoration: none;
+}

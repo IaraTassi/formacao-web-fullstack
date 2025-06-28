@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:wght@100;300;400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #3b63b6;
+  padding: 1rem;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  gap: 2.5rem;
+}
+nav.menu li > a {
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+img {
+  width: 35%;
+  height: auto;
+}
+
+h2 {
+  font-size: 2.375rem;
+  margin: 0.5rem 0;
+}
+
+p {
+  font-size: 0.75rem;
+  text-align: center;
+  margin: 0 1rem;
+}
+
+section {
+  text-align: center;
+  border-bottom: 1px solid rgb(163, 159, 159);
+  padding: 2rem;
+}
+
+button {
+  color: #fff;
+  background-color: #3b63b6;
+  border-radius: 2.8rem;
+  border: 1px solid #3b63b6;
+  padding: 1rem 2.5rem;
+  margin: 1rem 0;
+}
+
+table {
+  width: 70%;
+  margin: 0.75rem auto;
+  border-collapse: collapse;
+}
+
+tbody th {
+  text-align: left;
+}
+
+td,
+th {
+  border: 1px solid rgb(163, 159, 159);
+  text-align: center;
+  padding: 0.75rem;
+}
+
+.Copyright {
+  text-align: center;
+  color: rgb(163, 159, 159);
+  padding: 1rem 0;
+}
