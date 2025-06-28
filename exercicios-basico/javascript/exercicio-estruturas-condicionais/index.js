@@ -38,3 +38,80 @@ if (idade >= 18 && temHabilitacao) {
 } else {
   console.log("Você não está habilitado a dirigir.");
 }
+
+/* Questão: Crie um programa que calcule o desconto de um produto com base no valor total. Regra: 
+- Se o valor for menor que R$100,00, sem desconto
+- Se o valor estiver entre R$100,00 e R$500,00, 10% de desconto.
+- Se for maior que R$500,00, 20% de desconto. */
+const valor = Number(prompt("Digite o valor do produto"));
+let valorFinal;
+
+if (valor < 100.0) {
+  valorFinal = valor;
+  console.log(
+    `Você não tem desconto. valor final da compra: R$ ${valorFinal.toFixed(2)}`
+  );
+} else if (valor >= 100.0 && valor <= 500.0) {
+  valorFinal = valor * 0.9;
+  console.log(
+    `Você teve desconto de 10%, valor final da compra: R$ ${valorFinal.toFixed(
+      2
+    )} `
+  );
+} else if (valor > 500.0) {
+  valorFinal = valor * 0.8;
+  console.log(
+    `Você teve desconto de 20%, valor final da compra : R$ ${valorFinal.toFixed(
+      2
+    )}`
+  );
+}
+
+/* Crie uma estrutura switch que recebe uma variável nota (A, B, C, D ou E) e exibe uma mensagem correspondente à avaliação:
+A: "Excelente!"
+B: "Muito bom!"
+C: "Bom"
+D: "Precisa melhorar"
+E: "Reprovado"
+Para qualquer outra nota, exiba: "Nota inválida."*/
+const nota = "B";
+let mensagem;
+
+switch (nota) {
+  case "A":
+    mensagem = "Excelente!";
+    break;
+  case "B":
+    mensagem = "Muito bom!";
+    break;
+  case "C":
+    mensagem = "Bom";
+    break;
+  case "D":
+    mensagem = "Precisa melhorar";
+    break;
+  case "E":
+    mensagem = "Reprovado";
+    break;
+  default:
+    mensagem = "Nota inválida.";
+}
+
+console.log(mensagem);
+100;
+
+/* Questão 1: Crie um programa que recebe a hora do dia e exibe se é "Manhã", "Tarde","Noite" ou "Hora inválida. Considere: 
+- Manhã: 5h às 11h
+- Tarde: 12h às 17h
+- Noite: 18h às 22h*/
+const hora = 23;
+
+if (hora >= 5 && hora <= 11) {
+  console.log("Manhã");
+} else if (hora >= 12 && hora <= 17) {
+  console.log("Tarde");
+} else if (hora >= 18 && hora <= 22) {
+  console.log("Noite");
+} else {
+  console.log("Hora inválida");
+}
