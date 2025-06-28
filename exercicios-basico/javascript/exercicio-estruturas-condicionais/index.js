@@ -115,3 +115,27 @@ if (hora >= 5 && hora <= 11) {
 } else {
   console.log("Hora inválida");
 }
+
+/* Questão 2: Crie um programa que recebe o nome de uma cor e exibe, uma mensagem correspondente: 
+- "Vermelho": "Você escolheu a cor da paixão"
+- "Azul": "Você escolheu a cor da tranquilidade"
+- "Verde": "Você escolheu a cor da natureza"
+Caso a cor não esteja na lista, "Cor desconhecida*/
+const cor = "Azul";
+let mensagem1;
+
+switch (cor) {
+  case "Vermelho":
+    mensagem1 = "Você escolheu a cor da paixão";
+    break;
+  case "Azul":
+    mensagem1 = "Você escolheu a cor da tranquilidade";
+    break;
+  case "Verde":
+    mensagem1 = "Você escolheu a cor da natureza";
+    break;
+  default:
+    mensagem1 = "Cor desconhecida.";
+}
+
+console.log(mensagem1);
