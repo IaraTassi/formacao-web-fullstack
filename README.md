@@ -5,7 +5,7 @@ Bem-vindo ao repositório do **Projeto de Formação Web Full Stack da GrowDev**
 Este espaço contém os exercícios e projetos desenvolvidos durante a formação.
 
 👉 **Acesse o site oficial da GrowDev para saber mais sobre a formação:**  
-[GrowDev - Formação Web Full Stack](https://www.growdev.com.br)
+[![GrowDev](./assets/logo-growdev.png)](https://www.growdev.com.br)
 
 ## 🖥️ Sobre a Formação
 
@@ -55,6 +55,8 @@ A formação é dividida em **três blocos principais**: Básico, Intermediário
 
 ## 📁 Estrutura do Repositório
 
+<details>
+  <summary>Clique para expandir a estrutura</summary>
 ```plaintext
 /
 ├── exercicios-basico/
