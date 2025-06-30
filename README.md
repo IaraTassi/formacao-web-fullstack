@@ -2,10 +2,10 @@
 
 Bem-vindo ao repositório do **Projeto de Formação Web Full Stack da GrowDev**! 🚀
 
-Este espaço contém os exercícios e projetos desenvolvidos durante a formação.
+- Este repositório contém os exercícios e projetos desenvolvidos ao longo da formação.
 
 👉 **Acesse o site oficial da GrowDev para saber mais sobre a formação:**  
-[![GrowDev](./assets/logo-growdev.png)](https://www.growdev.com.br)
+[![GrowDev](./assets/images/logo-growdev.png)](https://www.growdev.com.br)
 
 ## 🖥️ Sobre a Formação
 
@@ -57,25 +57,41 @@ A formação é dividida em **três blocos principais**: Básico, Intermediário
 
 <details>
   <summary>Clique para expandir a estrutura</summary>
+  
 ```plaintext
-/
-├── exercicios-basico/
+/FORMACAO-WEB-FULLSTACK/
+├── assets/
+│   └── images/
+│       └── logo-growdev.png
+├── fundamentos-front-end/
+│   ├── css/
+│   │   ├── exercicio-base-css-atividade-1/
+│   │   ├── exercicio-base-css-atividade-2/
+│   │   ├── exercicio-base-css-atividade-3/
+│   │   ├── exercicio-display-e-flexbox/
+│   │   ├── exercicio-links-listas-tabelas/
+│   │   ├── exercicio-position-pseudo-classes-elementos/
+│   │   ├── exercicio-responsividade-parte-1-2-3/
+│   │   └── exercicio-unidades-medidas-box-model/
 │   ├── html/
-|   ├── exercicio-conceitos-html/
-│   │   ├── index.html
-│   │   └── README.md
-|__ |__ css/
-|__ |__ deploy/
-│   |__ javascript/
-├── exercicios-intermediario/
-│   ├── /
-│   ├── /
-│   └── /
-├── exercicios-avancado/
-│   ├── /
-│   ├── /
-│   └── /
+│   │   ├── exercicio-conceitos-basicos-html/
+│   │   ├── exercicio-imagens-links-listas/
+│   │   └── exercicio-tabelas-atributos-e-html-semantico/
+├── fundamentos-javascript/
+│   └── javascript/
+│       ├── exercicio-dados-basicos/
+│       ├── exercicio-dados-estruturados/
+│       ├── exercicio-escopo-de-variavel/
+│       ├── exercicio-estruturas-condicionais/
+│       ├── exercicio-estruturas-de-repeticao/
+│       ├── exercicio-funcoes/
+│       ├── exercicio-fundamentacao/
+│       ├── exercicio-operadores/
+│       └── exercicio-variaveis/
+├── LICENSE
 └── README.md
+
+</details> 
 ```
 
 ---
@@ -85,7 +101,7 @@ A formação é dividida em **três blocos principais**: Básico, Intermediário
 - ✅ Microcertificados para cada etapa concluída.
 - ✅ Domínio das principais tecnologias de desenvolvimento web.
 - ✅ Desenvolvimento de projetos robustos e bem documentados.
-- ✅ Certificado de Pós-Graduação
+- ✅ Certificação de Pós-Graduação
 
 ---
 
@@ -93,7 +109,11 @@ A formação é dividida em **três blocos principais**: Básico, Intermediário
 
 ### Interface Criada no Bloco Intermediário:
 
+_Em breve..._
+
 ### Diagrama de Banco de Dados (Bloco Avançado):
+
+_Em breve..._
 
 ---
 
