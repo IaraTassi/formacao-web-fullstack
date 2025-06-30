@@ -90,9 +90,8 @@ A formação é dividida em **três blocos principais**: Básico, Intermediário
 │       └── exercicio-variaveis/
 ├── LICENSE
 └── README.md
-
-</details> 
 ```
+</details>
 
 ---
 
