@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício Alterar Imagem com Clique</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: sans-serif, "Times New Roman", Times, serif, Geneva, Tahoma,
+          sans-serif;
+        font-size: 1.5rem;
+        color: #585858;
+        text-align: center;
+      }
+
+      #set-src {
+        width: 20rem;
+        height: auto;
+      }
+
+      button {
+        margin-top: 2rem;
+        font-size: 1rem;
+        padding: 1.25rem 2rem;
+        background-color: #585858;
+        color: white;
+        border: none;
+        border-radius: 0.5rem;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Clique para Trocar a Imagem</h1>
+    <img id="set-image" src="images/image1.jpg" alt="Imagem de Gato Exótico" />
+    <button onclick="changeImage()">TROCAR IMAGEM</button>
+    <script src="./script.js"></script>
+  </body>
+</html>

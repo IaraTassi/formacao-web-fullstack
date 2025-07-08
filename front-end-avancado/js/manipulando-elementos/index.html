@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício: Lista de Tarefas</title>
+    <style>
+      body {
+        font-family: sans-serif, "Times New Roman", Times, serif, Geneva, Tahoma,
+          sans-serif;
+        font-size: 1.5rem;
+        color: #585858;
+        text-align: center;
+      }
+
+      input {
+        margin-top: 2rem;
+        font-size: 1rem;
+        padding: 0.7rem 1.2rem;
+        border-radius: 2px solid #585858;
+        color: #585858;
+        border-radius: 0.5rem;
+        cursor: pointer;
+      }
+
+      li {
+        text-align: justify;
+        list-style-type: none;
+      }
+
+      button {
+        margin-top: 2rem;
+        font-size: 1rem;
+        padding: 0.7rem 1.2rem;
+        background-color: #585858;
+        color: white;
+        border: #585858;
+        border-radius: 0.5rem;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Lista de Tarefas</h1>
+    <input id="inputTask" type="text" placeholder="Digite uma tarefa" />
+    <button onclick="addList()">ADICIONAR</button>
+    <ul id="listTask"></ul>
+    <script src="./script.js"></script>
+  </body>
+</html>
