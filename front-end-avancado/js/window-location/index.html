@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício Window Location</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: sans-serif, "Times New Roman", Times, serif, Geneva, Tahoma,
+          sans-serif;
+        font-size: 1.5rem;
+        color: #585858;
+        text-align: center;
+      }
+
+      input {
+        margin-top: 2rem;
+        font-size: 1rem;
+        padding: 0.7rem 1.2rem;
+        border-radius: 2px solid #585858;
+        color: #585858;
+        border-radius: 0.5rem;
+        cursor: pointer;
+      }
+
+      input,
+      button {
+        width: 30%;
+        box-sizing: border-box;
+      }
+
+      button {
+        margin-top: 2rem;
+        font-size: 1rem;
+        padding: 1.25rem 2.5rem;
+        background-color: #585858;
+        color: white;
+        border: none;
+        border-radius: 0.5rem;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Navegador de URLs</h1>
+    <input type="url" id="urlInput" placeholder="Insira uma URL" />
+    <button onclick="goToPage()">NAVEGAR</button>
+    <button onclick="replacePage()">SUBSTITUIR URL</button>
+    <button onclick="assignUrl()">ATRIBUIR URL</button>
+    <p id="currentUrl"></p>
+    <script src="./script.js"></script>
+  </body>
+</html>
