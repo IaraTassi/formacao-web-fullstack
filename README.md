@@ -15,31 +15,32 @@ Bem-vindo ao repositório do **Projeto de Formação Web Full Stack da GrowDev**
 
 ## 📚 Conteúdo da Formação
 
-A formação é dividida em **três blocos principais**: Básico, Intermediário e Avançado. Cada bloco foca em desenvolver habilidades fundamentais e avançadas no desenvolvimento web.
+A formação é dividida em **módulos**, cada um com seu conjunto de conteúdos e projetos.  
+Você poderá acompanhar o progresso abaixo conforme os módulos forem sendo desenvolvidos.
 
-### 🔹 Bloco Básico
+## 📚 Linha do Tempo da Formação
 
-- Fundamentos de programação, lógica, e estrutura de dados.
-- Introdução ao desenvolvimento front-end: HTML, CSS, e interatividade.
-- Primeiros passos com JavaScript e programação backend (Node.js).
-- Versionamento de código e ferramentas de desenvolvimento.
-- Fundamentos de APIs e criação de servidores simples.
+> Abaixo estão os módulos da formação, indicados com o status de progresso:
 
-### 🔹 Bloco Intermediário
-
-- Desenvolvimento backend com foco em bancos de dados relacionais (SQL).
-- Programação orientada a objetos e introdução ao TypeScript.
-- Desenvolvimento web em React, criando interfaces de usuário modernas.
-- Avanço em bancos de dados e integração de dados em aplicações.
-- Integração de APIs e comunicação entre diferentes partes do sistema.
-
-### 🔹 Bloco Avançado
-
-- Aprofundamento no desenvolvimento com React e gerenciamento de estados com Redux.
-- Práticas de qualidade de software, incluindo testes e documentação.
-- Segurança em APIs, com foco em criptografia e autenticação.
-- Técnicas avançadas de integração e desenvolvimento de APIs.
-- Construção de sistemas seguros e bem documentados.
+- ✅ **Módulo 01** — Fundamentos de Lógica de Programação
+- ✅ **Módulo 02** — Fundamentos do Desenvolvimento Front-End
+- ✅ **Módulo 03** — Fundamentos da Programação em JavaScript
+- ✅ **Módulo 04** — Práticas Avançadas em JavaScript
+- ✅ **Módulo 05** — Tópicos Avançados de Front-End
+- 🛠️ **Módulo 06** — Projeto Full Stack I: Growflix _(em desenvolvimento)_
+- ⏳ **Módulo 07** — Fundamentos do Desenvolvimento Back-End I
+- ⏳ **Módulo 08** — Fundamentos do Desenvolvimento Back-End II
+- ⏳ **Módulo 09** — TypeScript
+- ⏳ **Módulo 10** — Programação Orientada a Objetos
+- ⏳ **Módulo 11** — Banco de Dados Relacional
+- ⏳ **Módulo 12** — Banco de Dados Relacional Avançado
+- ⏳ **Módulo 13** — Containers
+- ⏳ **Módulo 14** — Fundamentos de Cloud Computing
+- ⏳ **Módulo 15** — Projeto Full Stack II
+- ⏳ **Módulo 16** — Fundamentos de ReactJS
+- ⏳ **Módulo 17** — ReactJS Avançado
+- ⏳ **Módulo 18** — Banco de Dados NoSQL
+- ⏳ **Módulo 19** — Fundamentos de IA
 
 ---
 
@@ -47,9 +48,9 @@ A formação é dividida em **três blocos principais**: Básico, Intermediário
 
 - **Front-end:** HTML, CSS, JavaScript, React, Redux.
 - **Back-end:** Node.js, TypeScript, Express.js.
-- **Banco de Dados:** MySQL, PostgreSQL.
+- **Banco de Dados:** MySQL, MongoDB.
 - **Versionamento:** Git e GitHub.
-- **Qualidade de Software:** Jest, documentação e boas práticas.
+- **Qualidade de Software:** Jest, ferramentas de CI/CD, Docker, documentação e boas práticas.
 
 ---
 
@@ -88,8 +89,35 @@ A formação é dividida em **três blocos principais**: Básico, Intermediário
 │       ├── exercicio-fundamentacao/
 │       ├── exercicio-operadores/
 │       └── exercicio-variaveis/
+├── front-end-avancado/
+│   ├── css/
+│   │   ├── bootstrap-content/
+│   │   ├── bootstrap-forms/
+│   │   └── bootstrap-layout/
+│   └── js/
+│       ├── armazenamento-web/
+│       ├── capyurando-elemntos-dom/
+│       ├── event-listener/
+│       ├── funcionamento-basico-dom/
+│       ├── manipulando-atributos/
+│       ├── manipulando-elementos/
+│       └── window-location/
+├── javascript-avancado/
+│   ├── erros-javascript/
+│   ├── funcoes-metodos-nativos/
+│   ├── metodo-array-find-findindex/
+│   ├── metodo-array-reduce/
+│   ├── metodo-array-some-avery/
+│   ├── metodos-array-filter/
+│   ├── metodos-array-foreach-map/
+│   ├── metodos-array-reverse-join-include/
+│   ├── metodos-array-slice-splice/
+│   ├── metodos-array-sort/
+│   ├── principais-metodos-number/
+│   └── push-unshift-pop-shift/
 ├── LICENSE
 └── README.md
+
 ```
 </details>
 
@@ -125,3 +153,4 @@ Desenvolvido por Iara Tassi.
 ## 📄 Licença
 
 Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+```
