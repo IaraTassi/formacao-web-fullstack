@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./assets/libs/bootstrap-5.3.7/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/libs/bootstrap-icons-1.11.3/font/bootstrap-icons.min.css"
+    />
+    <title>Bootstrap Formulários</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <form id="form-default" class="needs-validation" novalidate>
+              <fieldset>
+                <legend><h1 class="text-center">Acessar o Sistema</h1></legend>
+                <div class="mb-3">
+                  <label for="email" class="form-label">E-mail</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    required
+                  />
+                  <div class="valid-feedback">Tudo certo!</div>
+                  <div class="invalid-feedback">
+                    Preencha corretamente o campo de e-mail
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="password" class="form-label">Password</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="password"
+                    required
+                  />
+                  <div class="valid-feedback">Tudo certo!</div>
+                  <div class="invalid-feedback">
+                    Preencha corretamente o campo de senha
+                  </div>
+                </div>
+                <div class="mb-3 form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="connected"
+                  />
+                  <label class="form-check-label" for="connected"
+                    >Mantenha-me conectado</label
+                  >
+                </div>
+                <button type="submit" class="btn btn-secondary w-100">
+                  Entrar
+                </button>
+              </fieldset>
+            </form>
+          </div>
+          <div class="col-12">
+            <p class="text-center">
+              <small>Não tem conta? Cadastre-se!</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./assets/libs/bootstrap-5.3.7/bootstrap.bundle.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
