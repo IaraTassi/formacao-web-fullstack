@@ -1,0 +1,30 @@
+{
+  "name": "node",
+  "version": "20.19.5",
+  "description": "node",
+  "main": "index.js",
+  "type": "module",
+  "keywords": [
+    "runtime"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aredridel/node-bin-gen.git"
+  },
+  "scripts": {
+    "preinstall": "node installArchSpecificPackage",
+    "runHello": "node src/back-end-I/node-js/scripts-node/hello.js"
+  },
+  "bin": {
+    "node": "bin/node.exe"
+  },
+  "dependencies": {
+    "axios": "^1.11.0",
+    "node-bin-setup": "^1.0.0"
+  },
+  "license": "ISC",
+  "author": "",
+  "engines": {
+    "npm": ">=5.0.0"
+  }
+}
