@@ -27,9 +27,9 @@ Você poderá acompanhar o progresso abaixo conforme os módulos forem sendo des
 - ✅ **Módulo 03** — Fundamentos da Programação em JavaScript
 - ✅ **Módulo 04** — Práticas Avançadas em JavaScript
 - ✅ **Módulo 05** — Tópicos Avançados de Front-End
-- 🛠️ **Módulo 06** — Projeto Full Stack I: Growflix _(em desenvolvimento)_
-- ⏳ **Módulo 07** — Fundamentos do Desenvolvimento Back-End I
-- ⏳ **Módulo 08** — Fundamentos do Desenvolvimento Back-End II
+- ✅ **Módulo 06** — Projeto Full Stack I: Growflix
+- ✅ **Módulo 07** — Fundamentos do Desenvolvimento Back-End I
+- 🛠️ **Módulo 08** — Fundamentos do Desenvolvimento Back-End II _(em andamento)_
 - ⏳ **Módulo 09** — TypeScript
 - ⏳ **Módulo 10** — Programação Orientada a Objetos
 - ⏳ **Módulo 11** — Banco de Dados Relacional
@@ -89,6 +89,12 @@ Você poderá acompanhar o progresso abaixo conforme os módulos forem sendo des
 │       ├── exercicio-fundamentacao/
 │       ├── exercicio-operadores/
 │       └── exercicio-variaveis/
+|── fundamentos-back-end/
+│   └── api-postman/
+│   └── javascript-assincrono/
+│   └── node-js/
+│       |── exercicio-primeiro-projeto-node/
+│       |── scripts-node/
 ├── front-end-avancado/
 │   ├── css/
 │   │   ├── bootstrap-content/
@@ -96,7 +102,7 @@ Você poderá acompanhar o progresso abaixo conforme os módulos forem sendo des
 │   │   └── bootstrap-layout/
 │   └── js/
 │       ├── armazenamento-web/
-│       ├── capyurando-elemntos-dom/
+│       ├── capturando-elementos-dom/
 │       ├── event-listener/
 │       ├── funcionamento-basico-dom/
 │       ├── manipulando-atributos/
@@ -115,7 +121,11 @@ Você poderá acompanhar o progresso abaixo conforme os módulos forem sendo des
 │   ├── metodos-array-sort/
 │   ├── principais-metodos-number/
 │   └── push-unshift-pop-shift/
+|__ .gitignore
 ├── LICENSE
+|__ node_modules
+|__ package-lock-json
+|__ package.json
 └── README.md
 
 ```
