@@ -13,18 +13,26 @@
   },
   "scripts": {
     "preinstall": "node installArchSpecificPackage",
-    "runHello": "node src/back-end-I/node-js/scripts-node/hello.js"
+    "runHello": "node src/back-end-I/node-js/scripts-node/hello.js",
+    "dev": "nodemon src/back-end-avancado/express-exercicios/index.js",
+    "start": "node src/back-end-avancado/express-exercicios/index.js"
   },
   "bin": {
     "node": "bin/node.exe"
   },
   "dependencies": {
     "axios": "^1.11.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
     "node-bin-setup": "^1.0.0"
   },
   "license": "ISC",
   "author": "",
   "engines": {
     "npm": ">=5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }

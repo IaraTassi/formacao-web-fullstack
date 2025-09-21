@@ -29,8 +29,8 @@ Você poderá acompanhar o progresso abaixo conforme os módulos forem sendo des
 - ✅ **Módulo 05** — Tópicos Avançados de Front-End
 - ✅ **Módulo 06** — Projeto Full Stack I: Growflix
 - ✅ **Módulo 07** — Fundamentos do Desenvolvimento Back-End I
-- 🛠️ **Módulo 08** — Fundamentos do Desenvolvimento Back-End II _(em andamento)_
-- ⏳ **Módulo 09** — TypeScript
+- ✅ **Módulo 08** — Fundamentos do Desenvolvimento Back-End II
+- 🛠️ **Módulo 09** — TypeScript _(em andamento)_
 - ⏳ **Módulo 10** — Programação Orientada a Objetos
 - ⏳ **Módulo 11** — Banco de Dados Relacional
 - ⏳ **Módulo 12** — Banco de Dados Relacional Avançado
@@ -64,6 +64,8 @@ Você poderá acompanhar o progresso abaixo conforme os módulos forem sendo des
 ├── assets/
 │   └── images/
 │       └── logo-growdev.png
+├── back-end-avancado/
+|   └── express-exercicios/
 ├── fundamentos-front-end/
 │   ├── css/
 │   │   ├── exercicio-base-css-atividade-1/
