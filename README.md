@@ -30,8 +30,8 @@ Você poderá acompanhar o progresso abaixo conforme os módulos forem sendo des
 - ✅ **Módulo 06** — Projeto Full Stack I: Growflix
 - ✅ **Módulo 07** — Fundamentos do Desenvolvimento Back-End I
 - ✅ **Módulo 08** — Fundamentos do Desenvolvimento Back-End II
-- 🛠️ **Módulo 09** — TypeScript _(em andamento)_
-- ⏳ **Módulo 10** — Programação Orientada a Objetos
+- ✅ **Módulo 09** — TypeScript 
+- 🛠️ **Módulo 10** — Programação Orientada a Objetos _(em andamento)_
 - ⏳ **Módulo 11** — Banco de Dados Relacional
 - ⏳ **Módulo 12** — Banco de Dados Relacional Avançado
 - ⏳ **Módulo 13** — Containers
@@ -96,7 +96,7 @@ Você poderá acompanhar o progresso abaixo conforme os módulos forem sendo des
 │   └── javascript-assincrono/
 │   └── node-js/
 │       |── exercicio-primeiro-projeto-node/
-│       |── scripts-node/
+│       └── scripts-node/
 ├── front-end-avancado/
 │   ├── css/
 │   │   ├── bootstrap-content/
@@ -123,6 +123,17 @@ Você poderá acompanhar o progresso abaixo conforme os módulos forem sendo des
 │   ├── metodos-array-sort/
 │   ├── principais-metodos-number/
 │   └── push-unshift-pop-shift/
+├── typescript/
+│   ├── bibliotecas/
+│   ├── enums-interfaces-types/
+│   ├── funcoes/
+│   ├── introducao/
+│   ├── modulos/
+│   ├── parametro/
+│   ├── tipos/
+│   ├── tipos-de-funcoes/
+│   ├── tipos-genericos/
+│   └── tipos-utilitarios/
 |__ .gitignore
 ├── LICENSE
 |__ node_modules
