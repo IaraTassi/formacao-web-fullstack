@@ -25,6 +25,7 @@
     "cors": "^2.8.5",
     "dotenv": "^17.2.2",
     "express": "^5.1.0",
+    "lodash": "^4.17.21",
     "node-bin-setup": "^1.0.0"
   },
   "license": "ISC",
@@ -33,6 +34,8 @@
     "npm": ">=5.0.0"
   },
   "devDependencies": {
-    "nodemon": "^3.1.10"
+    "@types/lodash": "^4.17.20",
+    "nodemon": "^3.1.10",
+    "typescript": "^5.9.2"
   }
 }
