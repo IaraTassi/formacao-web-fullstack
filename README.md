@@ -32,9 +32,9 @@ Você poderá acompanhar o progresso abaixo conforme os módulos forem sendo des
 - ✅ **Módulo 08** — Fundamentos do Desenvolvimento Back-End II
 - ✅ **Módulo 09** — TypeScript 
 - ✅ **Módulo 10** — Programação Orientada a Objetos
-- 🛠️ **Módulo 11** — Banco de Dados Relacional _(em andamento)_
-- ⏳ **Módulo 12** — Banco de Dados Relacional Avançado
-- ⏳ **Módulo 13** — Containers
+- ✅ **Módulo 11** — Banco de Dados Relacional 
+- ✅ **Módulo 12** — Banco de Dados Relacional Avançado
+- 🛠️ **Módulo 13** — Containers _(em andamento)_
 - ⏳ **Módulo 14** — Fundamentos de Cloud Computing
 - ⏳ **Módulo 15** — Projeto Full Stack II
 - ⏳ **Módulo 16** — Fundamentos de ReactJS
